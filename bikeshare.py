@@ -44,7 +44,7 @@ def get_filters():
        if month in MONTHS or month == 'all':
           break 
        else:
-           print("Oops! Looks like you did'n chose correctly please try again \n ")
+           print("Looks like you did'n chose correctly please try again \n ")
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -54,7 +54,7 @@ def get_filters():
        if day in DAYS or day == 'all':
           break 
        else:
-           print("Oops! Looks like you did'n chose correctly please try again \n ")
+           print("Looks like you did'n chose correctly please try again \n ")
 
  
     print('-'*40)
